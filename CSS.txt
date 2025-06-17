@@ -1,0 +1,44 @@
+#What is selector in CSS???
+-selector is the ability to select any elements in the webpage.
+#Describe the types of selectors????
+1.Universal selector.for instace * {}
+2.Type selector.for instace p {}
+3.Class selector.for instace . {}
+4.ID selector.for instace # {} only one unique id on one webpage that is ideal.
+5.Attribute selector.for instace Attribute[type="Text"]# {}
+6.Descendant selector.for instace tag tag {}
+7.child selector.for instace tag > tag {}
+8.adjacent selector.for instace tag + tag {}
+9.General selector.for instace tag ~ tag {}
+10.Pseudo-class selector.for instace a:hover {}
+11.Pseudo-element selector.for instace a::after {}
+12.Grouping selector.for instace tag,tag {}
+
+##### Box Model ##### 
+-Block elements stack vertically, taking full width.
+-Inline elements sit side by side, ignoring width/height.
+-Inline-block elements sit side by side but respect width/height.
+-border box include the padding margin all within the given size.
+
+
+
+
+###### Media Queries #####
+-media Queries is responsible for different types of devices respnsiveness.
+-@media screen {
+    all property to write or implement media query.
+}
+-can do max and min in the website and alos can range the screen size using and.
+
+##### Shadows #####
+-There are two types of shadow.one is box shadow and another one is text shadow.
+-box shadow: x offset | y offset | blurradius | spreadradius | color.
+-inset property to set shadow inside the box.
+-can set two colors for two offset.
+-text-shadow: offset-x | offset-y | blur-radius | color;
+
+##### Important #####
+-focus within css helps to focus other div or label or any thing else after one click tag or elements.
+-backgroud transparent to make the backgroud transparent.
+-outline to create outline instead of border.
+-css tricks website for helping the people.

@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  box-sizing: border-box;
+  background-color: #000000;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+}
+:root {
+  --hover-color: #4902ff;
+  --primary-font-color: #3ccf91;
+  --secondary-font-color: #8f9094;
+  --box-shadow-color: #1a1a1a;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 5px 0px;
+  border-bottom: 1px solid #ffffff;
+}
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 2px #ffffff;
+}
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px;
+}
+.nav-links li a:hover {
+  background-color: var(--box-shadow-color);
+  border-radius: 5px;
+  transition: all 0.2s ease;
+}
+.main-container {
+  margin: 25px;
+  padding: 25px;
+  border: 2px solid white;
+  display: grid;
+  row-gap: 1rem;
+  grid-template-rows: 1fr 50px 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
+}
+.container-one {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.container-two {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.container-three {
+  border: 1px solid rgb(187, 184, 177);
+}
+.container-four {
+  border: 1px solid rgb(187, 184, 177);
+}
+.container-five {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.container-one h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px;
+}
+.container-one h1 {
+  padding: 10px;
+}
+.container-one h3 {
+  padding: 10px;
+  font-weight: lighter;
+}
+#search-container input {
+  border: 2px solid #ffffff;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  width: 30%;
+  padding: 5px;
+  outline: 1px solid #262626;
+}
+.search-bar input {
+  background: transparent;
+  flex: 1;
+  outline: none;
+  padding: 2px;
+  margin: 2px;
+  border: none;
+}
+.search-bar button {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+}
+.search-bar:focus-within {
+  outline: 2px solid #4902ff;
+  transition: outline 0.2s ease;
+}
+
+.container-five h3 {
+  position: relative;
+  text-align: center;
+  top: 70px;
+  font-weight: lighter;
+}
+.container-five span {
+  font-weight: bold;
+  transition: color 0.2s ease;
+  cursor: pointer;
+  color: var(--primary-font-color);
+}
+.container-five span:hover {
+  color: var(--hover-color);
+}

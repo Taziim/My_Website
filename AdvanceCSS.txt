@@ -1,0 +1,50 @@
+##### FLEXBOX #####
+-one layout method.
+-can do horizontal and vertically align.
+-there is a parent containter inside parent container there are flex items container.
+-vertically axis known as main axis and horizontal axis known as cross axis.
+-by default flex direction row.
+-flew wrap to make it responsive design after screen made smaller.
+-justify content works main axis.to put some content in the webpage.
+-align items works cross axis.same works like jsutify content.
+-to make some container center just put align and jsutify content center.
+-align content use when wrap is used.
+-order property works in items of the flexbox.you can check also shrink and grow.
+-shrink can use in items to make the box shrink in x amount of times.
+-grow can use in items to grow the items in x amount of times.
+-flex basis use dimension set the width or height in flex items.
+-aligh-self use to set the items.
+
+##### Grid #####
+-Grid being used to create multiple layout in webpage.
+-parent container and child items will be there.
+-row gap tag being use to gap betwenn the container.column gap for column.
+-grid-template row and column to divide the web layout in row and column for child div.use fr.[use in main container ]
+-grid column and row start and end to adjust the child container in terms of size.
+-gap is the shorhand property to minimize row gap and column gap.
+-justify-self can apply to items to put the container.works in horizontal.
+-aligh-self works in vertically.
+-place-self works on both jusify,aligh make it one.
+-aligh item works on items box.
+-place-items both work like align and justify items.Meaning that 
+
+##### Summary flexbox #####
+-----Flex-items-----
+-order
+-flew-grow
+-flex-shrink
+-flex-basis
+-align-self
+-----flex-container-----
+-flex-direction
+-flex-wrap
+-flex-flow
+-align-items
+-aligh-content
+
+##### CSS Position #####
+-Basically positionning elements in different types of Position in webpage.
+-by default position is static.
+-position relative to set the position in a webpage top bottom left right.work on base of current window size.
+-position absolute for position overlapping.apply from the closet ancestor.
+-

@@ -1,0 +1,43 @@
+1.What is Html???
+#Html stands for hyper text markup language.
+2.What is tag???
+#<html> this a tag.for instace <a>-opening tag and </a> this is a closing tag.
+3.what is head???
+#head is meta data.information about a document.
+4.list down the tags
+-there are six heading tag from h1 to h6.
+-there is a p tag for paragraph. 
+-div tag is for empty div.
+5.How to add imgae???
+#img tag to add image.
+6.How to add link???
+#a tag to add link.
+7.What is element???
+#<h1>Lorem, ipsum dolor.</h1> this link whole known as element.basically starting and end between known as element.
+8.How many lists in html???
+#There are mainly three type of list.
+1.unorder list <ul>
+2.order list <ol>
+3.dl Description list <ul>
+9.How to Create Table???
+1.table tag to create table.
+2.tr for table row.
+3.th for table heading.
+4.td for table data.
+10.How to create form???
+-form tag to create form.
+-label tag for labelling.
+-input tag for what type of input.
+11.How to select multiple options
+-select tag to select the items.
+-option tag is to select multiple items.
+12.
+
+##### Important Basics #####
+1.live server extension helps to load the html to the web page
+2.There are six heading tags in html.
+3.emmet website to learn shorcuts to write code.
+4.there are three types of list.
+5.one tage is related to another child is known as parent child relations.rest of the relations known as descendant.
+6.child and child relations known as siblings.
+7.
